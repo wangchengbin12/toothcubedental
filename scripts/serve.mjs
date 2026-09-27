@@ -8,6 +8,7 @@ const files = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
+  ['/assets/toothcube-logo.jpg', ['assets/toothcube-logo.jpg', 'image/jpeg']],
 ]);
 const server = createServer(async (request, response) => {
   if (!['GET', 'HEAD'].includes(request.method)) {
