@@ -31,3 +31,17 @@
 /* Practice introduction and service categories. */
 .about{display:block}.about-heading{max-width:760px;margin-bottom:36px}.about-heading h2{font-size:clamp(2rem,3.8vw,3.2rem);line-height:1.15}.about .about-heading p:not(.eyebrow){max-width:720px}.services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.service-card{padding:30px 26px;border:1px solid var(--line);border-radius:16px;background:#fff}.service-number{display:block;color:var(--green);font-size:.875rem;letter-spacing:.1em;margin-bottom:24px}.service-card h3{font-family:Georgia,serif;font-size:1.65rem;font-weight:400;line-height:1.25;min-height:4.15rem;margin:0 0 22px}.service-card ul{padding-left:1.15rem;margin:0;color:var(--muted);font-size:1rem;line-height:1.65}.service-card li{padding-left:4px;margin-bottom:10px}.service-card li:last-child{margin-bottom:0}.service-card li::marker{color:var(--green)}
 @media(max-width:900px){.services-grid{grid-template-columns:1fr}.service-card h3{min-height:0}.service-card{padding:26px}.service-number{margin-bottom:16px}}
+
+#appointment-check{width:min(480px,calc(100% - 32px));max-height:calc(100dvh - 32px);overflow:auto;padding:32px;border:1px solid var(--line);border-radius:20px;color:var(--ink);background:white;box-shadow:0 24px 80px #123b3e33}
+#appointment-check::backdrop{background:rgb(8 37 39 / .58)}
+#appointment-check h2{font-family:Georgia,serif;font-size:2rem;font-weight:400;line-height:1.15;margin:0 0 16px}
+#check-description,.check-help{color:var(--muted);line-height:1.6}
+#check-question{display:block;font-weight:700;margin:24px 0 10px}
+#check-answer{display:block;width:100%;box-sizing:border-box;padding:14px;border:1px solid var(--line);border-radius:8px;font:inherit;color:var(--ink)}
+#check-answer:focus-visible,#appointment-check button:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+#check-error{min-height:1.4em;color:#a52a2a;font-size:.9rem}
+.check-actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.check-actions .button{font:inherit;cursor:pointer}
+#check-cancel{font:inherit;background:none;border:0;text-decoration:underline;color:var(--ink);padding:12px;cursor:pointer}
+.check-help{font-size:.875rem;margin:24px 0 0}
+@media(max-width:500px){#appointment-check{padding:24px}.check-actions .button{width:100%;justify-content:center}}
