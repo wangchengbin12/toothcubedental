@@ -7,6 +7,9 @@ const port = Number(process.env.PORT || 3000);
 const files = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
+  ['/privacy-practices.html', ['privacy-practices.html', 'text/html; charset=utf-8']],
+  ['/website-privacy.html', ['website-privacy.html', 'text/html; charset=utf-8']],
+  ['/good-faith-estimate.html', ['good-faith-estimate.html', 'text/html; charset=utf-8']],
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
   ['/assets/toothcube-logo.jpg', ['assets/toothcube-logo.jpg', 'image/jpeg']],
 ]);
