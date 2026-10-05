@@ -1,6 +1,6 @@
 # Patient-notice review — October 4, 2026
 
-The local website now contains three separate notice pages, shared footer links, and an appointment-adjacent Good Faith Estimate link. These are review drafts, not adopted policies. Do not deploy this draft until the remaining facts are resolved. The existing live site has not been changed by this work.
+The local website now contains three separate notice pages, shared footer links, and an appointment-adjacent Good Faith Estimate link. These are review drafts, not adopted policies. The owner requested publication of these drafts. They remain clearly labeled as not yet effective; publication does not resolve the outstanding facts or establish compliance.
 
 ## Confirm before adopting
 
